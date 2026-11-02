@@ -1,0 +1,24 @@
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Class-provided dataset
+data/athletes.csv
+data/*.zip
+
+# Generated Feast data and registry
+data/*.parquet
+feature_repo/registry.db
+feature_repo/online_store.db
+
+# MLflow local database and artifacts
+mlflow.db
+mlruns/
+
+# CodeCarbon cache
+.codecarbon.config

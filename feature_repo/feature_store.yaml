@@ -1,0 +1,10 @@
+
+project: athlete_experiments
+registry: registry.db
+provider: local
+
+online_store:
+  type: sqlite
+  path: online_store.db
+
+entity_key_serialization_version: 3

@@ -1,0 +1,10 @@
+pandas
+numpy
+pyarrow
+scikit-learn
+feast
+mlflow
+codecarbon
+matplotlib
+seaborn
+joblib
